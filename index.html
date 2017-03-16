@@ -4,6 +4,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Meowspace</title>
+    <link rel=StyleSheet href="styles/normalize.css">
+    <link rel=StyleSheet href="styles/main.css">
   </head>
 
   <body>
@@ -19,28 +21,32 @@
     </header>
 
     <main>
-      <section>
-        <h1> Meowspace </h1>
+
+      <section >
+        <h1 id="main-header"> Meowspace </h1>
+        <!-- <img src="assets/myspace-logo.svg" /> -->
       </section>
 
-      <section>
-        <h2> Popular Posts </h2>
 
+      <section >
+        <h2 id="post-header"> Popular Posts </h2>
+      </section>
+
+      <section class= "all-post">
         <article>
           <h3> Steal the Warm Chair </h3>
           <p>
             Hide when guests come over if it smells like fish eat as much as you wish. Meow. Scream at teh bath mewl for food at 4am for eat all the power cords and the dog smells bad and steal the warm chair right after you get up.
           </p>
-          <p><a href="#post1"> Learn More </a></p>
+          <p><a href="post1.html"> Learn More </a></p>
         </article>
-
 
         <article>
           <h3> Cat not Kitten Around </h3>
           <p>
              Curl up and sleep on the freshly laundered towels please stop looking at your phone and pet me cat slap dog in face. Cat not kitten around.
           </p>
-          <p><a href="#post2"> Learn More </a></p>
+          <p><a href="post2.html"> Learn More </a></p>
         </article>
 
         <article>
@@ -66,26 +72,38 @@
           </p>
           <p><a href="#post5"> Learn More </a></p>
         </article>
-
       </section>
 
-      <section>
+      <div id="join-club-all">
+      <section class="join-club-1">
         <h2> Join the Club </h2>
         <p>
           Cats go for world domination chase red laser dot. Flop over. Play riveting piece on synthesizer keyboard poop in the plant pot for shove bum in owner's face like camera lens. With tail in the air i could pee on this if i had the energy hola te quiero yet claw drapes mewl for food at 4am.
         </p>
-        <img alt="Cat playing with mouse on chair" src="assets/join_club.jpg">
       </section>
 
-      <section>
+      <section class="join-club-2">
+        <img alt="Cat playing with mouse on chair" src="assets/join_club.jpg" >
+      </section>
+      </div>
+
+
+      <section class="everybody">
         <h2> Everybody wants to be a cat! </h2>
       </section>
     </main>
+
+    <div id="footer">
     <footer>
-      <h4> &copy; 2016 </h4>
-      <p id="disclaimer">
-        Meowspace is not responsible for, and expressly disclaims all liability for, damages of any kind arising out of use, reference to, or reliance on any information contained within the site. While the information contained within the site is periodically updated, no guarantee is given that the information provided in this Web site is correct, complete, and up-to-date.
-      </p>
+
+      <section>
+        <h4> &copy; 2016 </h4>
+        <p id="disclaimer">
+          Meowspace is not responsible for, and expressly disclaims all liability for, damages of any kind arising out of use, reference to, or reliance on any information contained within the site. While the information contained within the site is periodically updated, no guarantee is given that the information provided in this Web site is correct, complete, and up-to-date.
+        </p>
+      </section>
+
+
       <nav>
         <ul>
           <li><a href="#about"> About </a></li>
@@ -93,5 +111,6 @@
         </ul>
       </nav>
     </footer>
+    </div>
   </body>
 </html>
